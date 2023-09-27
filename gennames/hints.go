@@ -12,7 +12,7 @@ import (
 
 	"path/filepath"
 
-	. "github.com/dave/jennifer/jen"
+	. "github.com/internetisalie/jennifer/jen"
 )
 
 func hints(w io.Writer, pkg, name, goListPath, filter string, standard, novendor bool) error {
